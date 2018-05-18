@@ -1,0 +1,109 @@
+body{
+  background-color: ##FFF;
+  /*background-image: url("../images/homepage/flower_ladybug.png");*/
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: 75%;
+/*  margin-right: 10%;
+  margin-left: 10%;*/
+  margin:0;
+  padding: 0;
+  height: 100%;
+  padding-top: 60px;
+  padding-bottom:40px; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3,h4 {
+  font-family: inherit;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:40px;   /* Height of the footer */
+  background: #2196F3;
+  color: white;
+}
+
+#fullnav{
+  background-color: none;
+}
+
+.jumbotron{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  border-style: none;
+  border-bottom: 1px solid #d5d5d5;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* Standard syntax */
+} 
+
+.jumbotext h1{
+  color: #000000;
+  font-family: inherit;
+}
+
+.jumbotext img{
+  width: 40px;
+  height: 55px;
+}
+
+#jumbo-body {
+  font-family: inherit;
+  text-align: center;
+}
+
+#topic{
+  margin-bottom: 60px;
+}
+
+#topic-card{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  border-style: none;
+  border-bottom: 1px solid #d5d5d5;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* Standard syntax */
+}
+
+#topic-card img{
+  width: 40px;
+  height: 55px;
+}
+
+#topic-body {
+  color: #848484;
+  padding: 1%;
+}
+
+#card-title {
+  background-color: #2196F3;
+  color: white;
+  border-style: none;
+  border-top: 1px solid #d5d5d5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#topic-title {
+}
+
+.enrollment {
+  border-style: none;
+  border-bottom: 1px solid #d5d5d5;  
+}
+
+
+

@@ -1,0 +1,30 @@
+
+<div ng-controller="mailController">
+  <h1>Contact Us</h1>
+  <form ng-submit="transporter.sendmail" class="enrollment" action="" method="GET">
+    <p>
+      <label for="name">Name:</label><br>
+      <input type="text" name="name" id="name">
+    </p>
+    <p>
+      <label for="email">Email:</label></br>
+      <input type="text" name="email" id="email">
+    </p>
+    <p>
+      <label for="message">Message:</label></br>
+      <textarea name="message" id="message" rows="5" cols="10"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Submit" id="transporter">
+    </p>
+  </form>
+</div>
+<!-- check npm mailgun and sendgrid -->
+
+<div ng-controller="mailController">
+    <form ng-submit="transporter.sendmail()" name="myFormName">
+        <input type="text" ng-model="myForm.name" placeholder="name" required="required"/><br>
+        <input type="text" ng-model="myForm.email" placeholder="email" required="required"/><br>
+        <input type="submit" value="Submit"/>
+    </form>
+</div>

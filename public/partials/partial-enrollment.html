@@ -1,0 +1,10 @@
+<div ng-controller="submitController">
+    <form ng-submit="processForm()" name="myFormName">
+        <input type="text" ng-model="myForm.name" placeholder="name" required="required"/>
+        <input type="text" ng-model="myForm.email" placeholder="email" required="required"/>
+
+        <input type="button" value="First button" ng-click="alert('First button')"/>
+        <input type="button" value="Second button" ng-click="alert('Second button')"/>
+        <input type="submit" value="Submit"/>
+    </form>
+</div> 
