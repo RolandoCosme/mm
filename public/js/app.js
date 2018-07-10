@@ -1,4 +1,4 @@
-angular.module('Ladybug', [ 
+angular.module('Minds', [ 
   'ngRoute'
  ])
 .config(['$routeProvider', function($routeProvider){

@@ -1,6 +1,5 @@
 body{
   background-color: ##FFF;
-  /*background-image: url("../images/homepage/flower_ladybug.png");*/
   background-attachment: fixed;
   background-repeat: repeat;
   background-size: 75%;
@@ -104,6 +103,12 @@ h3,h4 {
   border-style: none;
   border-bottom: 1px solid #d5d5d5;  
 }
+
+#registration-banner {
+  text-align: center;
+  background-color: yellow;
+}
+
 
 
 

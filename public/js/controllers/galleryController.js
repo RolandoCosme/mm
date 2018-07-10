@@ -1,4 +1,4 @@
-angular.module('ladybug', ['ngAnimate', 'ngTouch'])
+angular.module('minds', ['ngAnimate', 'ngTouch'])
     .controller('galleryController', function ($scope) {
         $scope.slides = [
             {image: '/images/carousel/IMG_5288.jpg', description: 'Image 00'},
