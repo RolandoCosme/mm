@@ -8,8 +8,8 @@
 //     }
 // }
 
-var app = angular.module('Ladybug', []);
-// angular.module('Ladybug', [])
+var app = angular.module('Minds', []);
+// angular.module('Minds', [])
     app.controller('submitController', ['$scope', function processForm($scope) {
         $scope.myForm = {};
         $scope.processForm = function(){
