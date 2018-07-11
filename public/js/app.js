@@ -5,7 +5,7 @@ angular.module('Minds', [
 
     $routeProvider
       .when('/home', {
-        templateUrl: '/partials/partial-home.html'
+        templateUrl: '/public/partials/partial-home.html'
       })
       .when('/gallery',{
           templateUrl: 'partials/partial-gallery.html',
