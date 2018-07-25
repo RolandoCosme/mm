@@ -9,7 +9,7 @@ angular.module('Minds', [
       })
       .when('/gallery',{
           templateUrl: '/public/partials/partial-gallery.html',
-          controller: 'galleryControler.js'
+          controller: 'galleryController.js'
       })
       .when('/practical-life',{
           templateUrl: '/public/partials/partial-practical.html',
